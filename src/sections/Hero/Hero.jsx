@@ -31,10 +31,10 @@ function Hero() {
 
   return (
     <section id="hero" className={styles.container}>
-      <div className={styles.colorModeContainer}>
+      <div className={styles.colourModeContainer}>
         <img className={styles.hero} src={heroImg} alt="Profile or Logo" />
         <img
-          className={styles.colorMode}
+          className={styles.colourMode}
           src={themeIcon}
           alt="Dark/Light theme"
           onClick={toggleTheme}
@@ -70,7 +70,7 @@ function Hero() {
           </a>
         </span>
 
-        <p>Fullstack developer with a passion for app development.</p>
+        <p className={styles.description}>Fullstack developer with a passion for app development.</p>
 
         <a href={CV} download>
           <button className="hover" target="_blank">
