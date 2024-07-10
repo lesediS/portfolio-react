@@ -5,6 +5,7 @@ import News from '../../assets/news.png'
 import TicTacToe from '../../assets/tictactoe.png'
 import Chat from '../../assets/chatapp.png';
 import CMS from '../../assets/Geeks4Learning-Logo-with-Slogan.png'
+import ToDo from '../../assets/todolist.png'
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -45,6 +46,13 @@ function Projects() {
           link="https://github.com/lesediS/cms"
           h3="Content Management System"
           p="Content management system for learnership with React and Spring Boot"
+        />
+
+        <ProjectCard
+          src={ToDo}
+          link="https://github.com/lesediS/toDoList"
+          h3="Content Management System"
+          p="To Do list with JSF"
         />
 
       </div>
