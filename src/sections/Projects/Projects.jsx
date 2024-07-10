@@ -54,9 +54,9 @@ function Projects() {
           h3="Content Management System"
           p="To Do list with JSF"
         />
-
       </div>
     </section>
+    
   );
 }
 
