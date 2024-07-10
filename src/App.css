@@ -66,3 +66,9 @@ p {
 .hover {
     cursor: pointer;
 }
+
+@media (width >= 800px){
+    #root{
+        gap: 100px;
+    }
+}
