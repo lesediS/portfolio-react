@@ -1,5 +1,5 @@
 import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/hero-img.png";
+import didi from "../../assets/didi.png";
 
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
@@ -32,7 +32,7 @@ function Hero() {
   return (
     <section id="hero" className={styles.container}>
       <div className={styles.colourModeContainer}>
-        <img className={styles.hero} src={heroImg} alt="Profile or Logo" />
+        <img className={styles.hero} src={didi} alt="Profile or Logo" />
         <img
           className={styles.colourMode}
           src={themeIcon}
