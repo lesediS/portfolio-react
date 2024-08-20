@@ -9,7 +9,7 @@ return (
         
         <div className={styles.skillList}>
             <SkillList src={checkMark} skill='Kotlin'/>
-            <SkillList src={checkMark} skill='Java 8'/>
+            <SkillList src={checkMark} skill='Java'/>
             <SkillList src={checkMark} skill='Java EE'/>
             <SkillList src={checkMark} skill='Spring Boot'/>
         </div>
