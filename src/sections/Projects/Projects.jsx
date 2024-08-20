@@ -51,7 +51,7 @@ function Projects() {
         <ProjectCard
           src={ToDo}
           link="https://github.com/lesediS/toDoList"
-          h3="Content Management System"
+          h3="To Do List"
           p="To Do list with JSF"
         />
       </div>
