@@ -47,7 +47,7 @@ function Hero() {
           <br />
           Seleke
         </h1>
-        <h2>Front and back end dev</h2>
+        <h2>Mobile, front- & back-end developer</h2>
 
         <span>
           <a
@@ -70,7 +70,7 @@ function Hero() {
           </a>
         </span>
 
-        <p className={styles.description}>Fullstack developer with a passion for app development.</p>
+        <p className={styles.description}>Developer with a passion for app development.</p>
 
         <a href={CV} download>
           <button className="hover" target="_blank">
