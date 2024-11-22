@@ -7,8 +7,8 @@ import moon from "../../assets/moon.svg";
 import gmailLight from "../../assets/gmail-light.svg";
 import gmailDark from "../../assets/gmail-dark.svg";
 
-import whatsappLight from "../../assets/whatsapp-light.svg";
-import whatsappDark from "../../assets/whatsapp-dark.svg";
+/* import whatsappLight from "../../assets/whatsapp-light.svg";
+ import whatsappDark from "../../assets/whatsapp-dark.svg"; */
 
 import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
@@ -16,7 +16,6 @@ import githubDark from "../../assets/github-dark.svg";
 import linkedInLight from '../../assets/linkedin-light.svg'
 import linkedInDark from '../../assets/linkedin-dark.svg'
 
-import CV from "../../assets/Lesedi-Seleke.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -27,7 +26,7 @@ function Hero() {
   const gmailIcon = theme === "light" ? gmailLight : gmailDark;
   const linkedInIcon = theme === "light" ? linkedInLight : linkedInDark;
   const githubIcon = theme === "light" ? githubLight : githubDark;
-  const whatsappIcon = theme === "light" ? whatsappLight : whatsappDark;
+  //const whatsappIcon = theme === "light" ? whatsappLight : whatsappDark;
 
   return (
     <section id="hero" className={styles.container}>
@@ -65,16 +64,18 @@ function Hero() {
           <a href="https://github.com/lesediS" target="_blank">
             <img src={githubIcon} alt="View my GitHub." />
           </a>
-          <a href="https://wa.me/0694302866" target="_blank">
+          
+          {/* <a href="https://wa.me/0694302866" target="_blank">
             <img src={whatsappIcon} alt="Reach out on WhatsApp." />
-          </a>
+          </a> */}
+
         </span>
 
         <p className={styles.description}>Developer with a passion for app development.</p>
 
-        <a href={CV} download>
+        <a href="#contact">
           <button className="hover" target="_blank">
-            Resume
+            Request CV
           </button>
         </a>
       </div>

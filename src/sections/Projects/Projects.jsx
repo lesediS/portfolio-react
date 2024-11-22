@@ -27,12 +27,12 @@ function Projects() {
           p="News app with Jetpack Compose"
         />
 
-        <ProjectCard
+        {/*} <ProjectCard
           src={Chat}
           link="https://github.com/lesediS/androidgeekschat"
           h3="Chat App"
           p="Chat app with Java"
-        />
+        /> */}
 
         <ProjectCard
           src={TicTacToe}
@@ -45,7 +45,11 @@ function Projects() {
           src={CMS}
           link="https://github.com/lesediS/cms"
           h3="Content Management System"
-          p="Content management system for learnership with React and Spring Boot"
+          p={
+            <>
+              Content management system for learnership<br/> with React and Spring Boot
+            </>
+          }
         />
 
         <ProjectCard
