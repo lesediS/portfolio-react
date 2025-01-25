@@ -41,7 +41,7 @@ function Projects() {
           p="Tic Tac Toe game with Jetpack Compose"
         />
 
-        <ProjectCard
+        {/* <ProjectCard
           src={CMS}
           link="https://github.com/lesediS/cms"
           h3="Content Management System"
@@ -50,7 +50,7 @@ function Projects() {
               Content management system for learnership<br/> with React and Spring Boot
             </>
           }
-        />
+        /> */}
 
         <ProjectCard
           src={ToDo}
